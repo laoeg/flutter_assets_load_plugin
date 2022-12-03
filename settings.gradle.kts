@@ -1,0 +1,1 @@
+rootProject.name = "flutter_asssts_load_plugin"
