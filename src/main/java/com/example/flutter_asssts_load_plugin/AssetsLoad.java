@@ -121,7 +121,7 @@ public class AssetsLoad extends AnAction {
     @Override
     public void update(@NotNull AnActionEvent e) {
         String selectedText = getEditor(e).getSelectionModel().getSelectedText();
-        if(selectedText == null && selectedText.isEmpty()){
+        if(selectedText == null){
             e.getPresentation().setEnabledAndVisible(false);
             return;
         }
